@@ -1,7 +1,7 @@
 # app.py
 import streamlit as st
 import pandas as pd
-import PyPDF2  # 用于解析 PDF 文件
+import PyPDF2  # 用于解析 PDF 
 import re  # 用于正则表达式提取问题
 from config.config import *
 from request.api_request import get_response
